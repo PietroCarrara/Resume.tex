@@ -7,7 +7,7 @@
 % http://www.LaTeXTemplates.com
 %
 % Original author:
-% Rishi Shah 
+% Rishi Shah
 %
 % Important note:
 % This template requires the resume.cls file to be in the same directory as the
@@ -21,7 +21,7 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass{resume} % Use the custom resume.cls style
+\documentclass[hidelinks]{resume} % Use the custom resume.cls style
 
 \usepackage{hyperref}
 
@@ -31,44 +31,51 @@
 \name{Pietro Carrara} % Your name
 %\address{156 Kasturi, Balajinagar, Sangli 416416} % Your address
 %\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
-\address{\href{tel:(51)99252-7334}{(51)99252-7334} \\ \href{mailto:pietro.carrara@inf.ufrgs.br}{pietro.carrara@inf.ufrgs.br}} % Your phone number and email
+\address{\href{tel:(51)99252-7334}{(51)99252-7334} \\ \href{mailto:pbcarrara@inf.ufrgs.br}{pbcarrara@inf.ufrgs.br}} % Your phone number and email
 \address{\href{https://github.com/PietroCarrara}{github.com/PietroCarrara}}
 
 \begin{document}
 
-%----------------------------------------------------------------------------------------
-%	EDUCATION SECTION
-%----------------------------------------------------------------------------------------
-
 \begin{rSection}{Educação}
 
-{\bf Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul -- Campus Canoas} \hfill {\em 2015 -- 2018} 
+{\bf Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul -- Campus Canoas} \hfill {\em 2015 -- 2018}
 \\ Graduado como Técnico em Informática
 
-{\bf Universidade Federal do Rio Grande do Sul} \hfill {\em Agosto 2019 -- Presente} 
-\\ Cursando Ciência da Computação
+{\bf Universidade Federal do Rio Grande do Sul} \hfill {\em 2019/2 -- Presente}
+\\ Cursando Ciência da Computação, atualmente no 3º semestre
 
 \end{rSection}
 
 \begin{rSection}{Objetivos}
-Trabalhar em uma organização que ofereça oportunidades de crescimento pessoal e profissional, através do aprendizado de
-novas tecnologias ou da resolução problemas desafiadores.
+Trabalhar em um local que ofereça oportunidades de crescimento pessoal e profissional, através do aprendizado de novas tecnologias e da resolução problemas desafiadores.
 
-Buscar certo nível de liberdade como desenvolvedor, para analizar e opinar sobre soluções apresentadas, assim como
-discutir e propor outas soluções em conjunto com o time.
+Buscar liberdade como desenvolvedor para analizar e opinar sobre soluções apresentadas, assim como
+discutir e propor outras soluções em conjunto com o time.
 \end{rSection}
 
-%--------------------------------------------------------------------------------
-%    Projects And Seminars
-%-----------------------------------------------------------------------------------------------
+\begin{rSection}{Experiência de Trabalho}
+
+\begin{rSubsection}{WPlay - Marketing Interativo}{Março 2019}{Programador de Sistemas}{Novo Hamburgo}
+\item Desenvolvimento e manutenção de sistemas web.
+\item Tecnologias: PHP7, Laravel, MySQL, Vue.js, HTML, CSS, JS, Git
+\end{rSubsection}
+
+\begin{rSubsection}{DBSeller Sistemas Integrados}{Abril 2019 -- Julho 2019}{Desenvolvedor Nível 1}{Porto Alegre}
+\item Desenvolvimento de novas funcionalidades/manutenção do software aberto de gestão de recursos humanos E-Cidade
+\item Tecnologias: PHP5, PostgreSQL, HTML, CSS, JS, Git
+\end{rSubsection}
+
+\end{rSection}
+
 \begin{rSection}{Projetos}
-{\bf Code Overlord: Jogo Para Auxílio do Ensido de Programação Orientada a Objetos}\\
+\href{https://github.com/PietroCarrara/CodeOverlord}{{\bf Code Overlord: Jogo Para Auxílio do Ensido de Programação Orientada a Objetos}}\\
 Projeto desenvolvido como trabalho de conclusão de curso para obtenção do grau de técnico em informática pelo IFRS --
 Canoas. O projeto é um jogo desenvolvido em C\#, Javascript, Lua e Go, onde o jogador encontrará diversos problemas e deverá resolvê-los aplicando conceitos da programação orientada a objeto.
+
+\href{https://github.com/PietroCarrara/vuetrine}{{\bf Vuetrine: Sistema Web Para Download de Mídia}}\\
+Desenvolvido utilizando HTML5, CSS3, Javascript e Vue.js, Vuetrine é um sistema que permite a seus usuários navegarem uma coleção de filmes e séries, além de baixá-los em alta qualidade sem sair de seu web-browser.
+
 \end{rSection}
-%----------------------------------------------------------------------------------------
-%	TECHNICAL STRENGTHS SECTION
-%----------------------------------------------------------------------------------------
 
 % \begin{rSection}{Conhecimentos}
 
@@ -79,32 +86,14 @@ Canoas. O projeto é um jogo desenvolvido em C\#, Javascript, Lua e Go, onde o j
 
 % \end{rSection}
 
-%----------------------------------------------------------------------------------------
-%	WORK EXPERIENCE SECTION
-%----------------------------------------------------------------------------------------
-
-\begin{rSection}{Experiência de Trabalho}
-
-\begin{rSubsection}{WPlay - Marketing Interativo}{Março 2019}{Programador de Sistemas}{Novo Hamburgo}
-\item Desenvolvimento e manutenção de sistemas web.
-\item Tecnologias: PHP7, Laravel, MySQL, Vue.js, HTML, CSS, JS
-\end{rSubsection}
-
-\begin{rSubsection}{DBSeller Sistemas Integrados}{Abril 2019 -- Julho 2019}{Desenvolvedor Nível 1}{Porto Alegre}
-\item Desenvolvimento de novas funcionalidades/manutenção do software aberto de gestão de recursos humanos E-Cidade
-\item Tecnologias: PHP5, PostgreSQL, HTML, CSS, JS
-\end{rSubsection}
-
-\end{rSection}
-
 
 \begin{rSection}{Atividades}
- 
+
  Palestra entitulada ``O uso de um carrinho como elemento que estimula o Ensino de Física e Matemática'' no Salão de
  Iniciação Científica e Tecnológica do IFRS no ano de 2016.
- 
- Competiu nos anos de 2017 e 2018 na maratona de programação de 12 horas ``CodeRace''.
- 
+
+ Competiu nos anos de 2017 e 2018 na maratona de programação de 12 horas \textit{\href{https://www.coderace.com.br/}{CodeRace}}.
+
  Contribuições para projetos \textit{Open-Source} como: \href{https://github.com/KDE/krita/commits?author=PietroCarrara}{Krita},
  \href{https://github.com/eonpatapon/mpDris2/commits?author=PietroCarrara}{mpDris2} e
  \href{https://github.com/hellosiyan/Viewnior/commits?author=PietroCarrara}{Viewnior}.
